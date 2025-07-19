@@ -147,6 +147,57 @@ padding: 14px;
   font-weight: bold;
 }
 
+/* ======================= features ================================= */
+.features{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 96px;
+}
+.right h1{
+  font-size: 2.2rem;
+  color: #0A0826;
+  font-weight: bold;
+}
+.right p{
+  color: #6C6C6C;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 16px;
+}
+.right button{
+   background-color: #E02C6D;
+  color: #fff;
+  border: none;
+  padding: 15px 24px;
+  font-size: 1rem;
+  margin-top: 16px;
+}
+
+
+footer{
+  background-color: #0A0826;
+  height: 240px;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
+footer h2{
+  margin-top: 50px;
+font-weight: bold;
+font-size: 1.8rem;
+}
+footer p{
+  font-size: 1rem;
+  margin-top: 10px;
+}
+.f-img{
+  margin-top: 10px;
+  font-size: 1.5rem;
+  letter-spacing: 8px;
+}
+
 /* ==================mobile responsive============================== */
 @media screen and (max-width:576px) {
   html, body{
@@ -184,6 +235,17 @@ padding: 14px;
   .card-p{
     grid-template-columns: 1fr;
     justify-items: center;
+  }
+  .features{
+    flex-direction: column-reverse;
+  }
+  .right{
+    margin: 15px;
+  }
+  .left img{
+    margin-top: -50px;
+    width: 95%;
+    margin-left: 10px;
   }
 
 }
